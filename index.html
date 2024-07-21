@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Propina</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de Propina</h2>
+        <label for="monto">Monto:</label>
+        <input type="number" id="monto" step="0.01">
+        
+        <label for="porcentaje">Porcentaje de propina:</label>
+        <input type="number" id="porcentaje" step="0.5" value="15">
+        
+        <button onclick="calcularPropina()">Calcular Propina</button>
+        
+        <div id="resultado"></div>
+    </div>
+
+    <script src="CalcularPropinas.js"></script>
+</body>
+</html>
